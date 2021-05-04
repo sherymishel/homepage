@@ -22,4 +22,32 @@
   border-radius: 50%;
   border: solid #1D1D1D 5px;
 }
+
+.secondary {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  /*if you want to crop the image*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.secondary:before {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: url("https://i.pinimg.com/originals/7c/01/a4/7c01a43e112a1411d3996543ff761417.png");
+  opacity: 0.1;
+}
+
+.secondary__main {
+  width: 70%;
+  padding-right: 30px;
+}
+
+.secondary__minor {
+  margin-left: 50px;
+}
 /*# sourceMappingURL=style.css.map */

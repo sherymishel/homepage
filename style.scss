@@ -13,3 +13,26 @@
     border: solid #1D1D1D 5px;
     }
 }
+.secondary {
+        position: relative;
+        z-index:1;
+        overflow:hidden; /*if you want to crop the image*/
+        
+    &:before{
+        z-index:-1;
+        position:absolute;
+        left:0;
+        top:0;
+        content: url('https://i.pinimg.com/originals/7c/01/a4/7c01a43e112a1411d3996543ff761417.png');
+        opacity:0.1;
+    }
+    display: flex;
+
+    &__main {
+        width: 70%;
+        padding-right: 30px;
+    }
+    &__minor {
+        margin-left: 50px;
+    }
+}
