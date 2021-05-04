@@ -1,0 +1,25 @@
+.primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.avatar {
+  margin: 10px;
+}
+
+.avatar__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.avatar__image {
+  width: 200px;
+  border-radius: 50%;
+  border: solid #1D1D1D 5px;
+}
+/*# sourceMappingURL=style.css.map */
