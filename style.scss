@@ -1,0 +1,15 @@
+.primary {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    margin: 10px;
+    &__block {
+        display: flex;
+    }
+    &__image {
+    width: 200px; 
+    border-radius: 50%; 
+    border: solid #1D1D1D 5px;
+    }
+}
