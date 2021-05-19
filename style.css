@@ -36,6 +36,7 @@
           animation-name: text;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
+  padding: 50px;
 }
 
 @-webkit-keyframes text {
