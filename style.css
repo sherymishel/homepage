@@ -100,4 +100,16 @@
 .secondary__minor {
   margin-left: 50px;
 }
+
+.secondary section {
+  border: rgba(0, 128, 0, 0) 1px solid;
+  border-radius: 2%;
+  margin: 10px;
+  -webkit-transition: 0.3s background-color;
+  transition: 0.3s background-color;
+}
+
+.secondary section:hover {
+  background-color: rgba(0, 255, 255, 0.856);
+}
 /*# sourceMappingURL=style.css.map */
