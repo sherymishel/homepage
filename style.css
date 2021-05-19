@@ -22,4 +22,53 @@
   border-radius: 50%;
   border: solid #1D1D1D 5px;
 }
+
+.avatar__text {
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0%;
+  -webkit-animation-name: text;
+          animation-name: text;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes text {
+  0% {
+  }
+  50% {
+    color: red;
+    opacity: 100%;
+    font-size: 70px;
+  }
+  100% {
+    font-size: 40px;
+    opacity: 0%;
+  }
+}
+
+@keyframes text {
+  0% {
+  }
+  50% {
+    color: red;
+    opacity: 100%;
+    font-size: 70px;
+  }
+  100% {
+    font-size: 40px;
+    opacity: 0%;
+  }
+}
+
+.avatar__text:hover {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
