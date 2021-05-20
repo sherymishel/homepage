@@ -1,3 +1,18 @@
+.ryu {
+    position: absolute;
+    width: 100%;
+    opacity: 0%;
+    animation-name: ryuGif;
+    animation-duration: 4.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes ryuGif{
+    0% {
+        opacity: 100%;
+    }
+}
+
 .primary {
     display: flex;
     align-items: center;
