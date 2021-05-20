@@ -1,3 +1,27 @@
+.ryu {
+  position: absolute;
+  width: 100%;
+  opacity: 0%;
+  -webkit-animation-name: ryuGif;
+          animation-name: ryuGif;
+  -webkit-animation-duration: 4.5s;
+          animation-duration: 4.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes ryuGif {
+  0% {
+    opacity: 100%;
+  }
+}
+
+@keyframes ryuGif {
+  0% {
+    opacity: 100%;
+  }
+}
+
 .primary {
   display: -webkit-box;
   display: -ms-flexbox;
